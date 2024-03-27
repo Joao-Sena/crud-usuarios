@@ -1,0 +1,97 @@
+.card-info{
+    background: #fafafa;
+    padding: 14px 18px 0px 18px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 3px 1px #0a0a0a20;
+}
+
+.titulo{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0 !important;
+    color: var(--primary-color);
+}
+
+.subtitulo{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    padding: 26px 0px 14px 0px;
+    color: var(--gray-color);
+    span { color: var(--primary-color); font-weight: 500; }
+}
+
+// card spinner
+.texto-card{
+    font-size: 16px;
+    font-weight: 500;
+    color: #888;
+    margin-bottom: 18px;
+}
+
+.numero-card{
+    font-size: 28px;
+    font-weight: bold;
+    color: #0a0a0a;
+    margin-bottom: 16px;
+}
+
+.destaque-card{
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 0;
+}
+
+.info-spinner{
+    font-size: 14px;
+    font-weight: 500;
+    color: #797979;
+    text-align: center;
+    position: relative;
+    top: -62px;
+    margin: 0 auto;
+}
+
+// LADO DIRETO
+li{
+    font-size: 14px;
+    font-weight: 500;
+    color: #868686;
+    padding: 14px 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+    mat-icon{ margin-right: 14px; font-size: 22px; }
+}
+
+.img-perfil{
+    border-radius: 50%;
+    width: 40%;
+}
+
+.container-perfil{
+    width: 100%;
+    text-align: center;
+    h4{
+        font-size: 16px;
+        color: #474747;
+        font-weight: 500;
+        margin: 8px 0px 0px 0px;
+    }
+    h5{
+        font-size: 14px;
+        color: #6d6d6d;
+        font-weight: 400;
+        margin: 2px 0px 0px 0px;
+    }
+    li{ justify-content: center; color: var(--primary-color); border: none; }
+}
+
+.texto-p{
+    font-size: 14px; 
+    font-style: italic;
+     color: #767676;
+    }

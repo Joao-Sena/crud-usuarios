@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root {
+    --primary-color: #7533a8;
+    --error-color: #ac2828;
+    --gray-color: #747474;
+}
+
+.c-primary{ color: var(--primary-color); }
+.c-error{ color: var(--error-color); }
+.c-gray{ color: var(--gray-color); }
+
+.hover:hover{ cursor: pointer; }
+
+
+.mat-mdc-progress-spinner .mdc-circular-progress__determinate-circle, .mat-mdc-progress-spinner .mdc-circular-progress__indeterminate-circle-graphic{
+    stroke: var(--primary-color) !important;
+}

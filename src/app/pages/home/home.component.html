@@ -1,0 +1,103 @@
+<app-menu></app-menu>
+
+<div class="container-fluid pt-3">
+    <div class="row">
+        <!-- LADO ESQUERDA DA TELA -->
+        <div class="col-12 col-lg-9">
+            <!-- PRIMEIRO CARD -->
+            <div class="card-info">
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <h1 class="titulo">Crud Users</h1>
+                        <h3 class="subtitulo">Mais eficiência na gestão dos <span>usuários</span> e de seus benefícios.
+                        Chega de sistemas antigos e sem usabilidade, agora com o <span>Crud Users</span> seu trabalho fica
+                        até 3x mais rápido e simplificado.<br>
+                        Confira um resumo das informações em nosso <span>Dashboard</span></h3>
+
+                        <app-button textButton="Iniciar" routerLink="/crud"></app-button>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <img src="../../../assets/dashboard.png" width="100%">
+                    </div>
+                </div>
+            </div>
+
+            <!-- PARTE DE BAIXO DA TELA -->
+            <div class="row mt-4">  
+                <!-- CARD-SPINNER-ESQUERDA -->
+                <div class="col-6">
+                    <div class="card-info">
+                        <div class="row">
+                            <div class="col-8">
+                                <p class="texto-card">Total de usuários cadastrados no sistema</p>
+                                <p class="numero-card">79</p>
+                                <p class="destaque-card">+ 5 adicionados no último mês</p>
+                            </div>
+                            <div class="col-4">
+                                <mat-progress-spinner class="example-margin mx-auto" mode="determinate"
+                                value="79"></mat-progress-spinner>
+                                <p class="info-spinner">79/150</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD-SPINNER-DIREITA -->
+                <div class="col-6">
+                    <div class="card-info">
+                        <div class="row">
+                            <div class="col-8">
+                                <p class="texto-card">Total de benefícios cadastrados</p>
+                                <p class="numero-card">4</p>
+                                <p class="destaque-card">+ 2 adicionados no último mês</p>
+                            </div>
+                            <div class="col-4">
+                                <mat-progress-spinner class="example-margin mx-auto color-spinner" mode="determinate"
+                                value="80"></mat-progress-spinner>
+                                <p class="info-spinner">4/5</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD USUÁRIO CADASTRADO -->
+                <div class="col-12 mt-4">
+                    <div class="card-info">
+                        <h3 class="titulo">último usuário cadastrado</h3>
+
+                        <hr class="hr">
+
+                        <div class="row">
+                            <div class="col-1"> <mat-icon>account_circle</mat-icon> </div>
+                            <div class="col-1"> <p class="texto-p">1</p> </div>
+                            <div class="col"> <p class="texto-p">João Sena</p> </div>
+                            <div class="col"> <p class="texto-p">Desenvolvedor Front-End Sênior</p> </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- LADO DIREITO DA TELA -->
+        <div class="col-12 col-lg-3">
+            <div class="card-info">
+                <div class="container-perfil">
+                    <img src="../../../assets/img-perfil.png" class="img-perfil">
+                    <h4>Seja bem vindo</h4>
+                    <h5>{{ userName }}</h5>
+                    <li> <mat-icon>location_on</mat-icon> SP - Brasil </li>
+                </div>
+
+                <hr class="hr">
+                <p class="texto-p">"Um ser humano deve transformar informação em inteligência ou conhecimento. Tendemos a esquecer que nenhum computador jamais fará uma nova pergunta"</p>
+                <hr class="hr">
+
+                <li> <mat-icon>person</mat-icon>Gerencie usuários </li>
+                <li> <mat-icon>loyalty</mat-icon>Adicione benefícios </li>
+                <li> <mat-icon>format_list_bulleted</mat-icon>Consulte cadastros </li>
+                <li> <mat-icon>delete</mat-icon>Exclua usuários </li>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "crud-usuarios",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

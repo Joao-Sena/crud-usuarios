@@ -1,0 +1,29 @@
+.titulo{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    color: var(--primary-color);
+}
+
+.subtitulo{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 2px 0px 14px 0px;
+    margin: 0;
+    color: var(--gray-color);
+}
+
+.titulo-informacao{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.informacao{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--gray-color);
+    margin-bottom: 20px;
+}

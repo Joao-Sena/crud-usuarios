@@ -1,0 +1,34 @@
+.titulo{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    color: var(--primary-color);
+}
+
+.subtitulo{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 2px 0px 14px 0px;
+    margin: 0;
+    color: var(--gray-color);
+} 
+
+.botao-primario{
+    width: auto;
+    outline: none;
+    border: 0;
+    background: #7533a8;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 6px 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px 1px #0a0a0a20;
+    transition: 0.3s linear all;
+    &:hover{
+        cursor: pointer;
+        box-shadow: 0px 0px 5px 3px #0a0a0a40;
+    }
+    &:disabled{ cursor: default; opacity: 0.7; }
+}
